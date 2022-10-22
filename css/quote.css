@@ -1,0 +1,27 @@
+#quote {
+  position: fixed;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fefefe;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.01);
+}
+
+#quote span {
+  display: block;
+  font-size: 16px;
+}
+
+#quote span:first-child {
+  margin-bottom: 8px;
+  width: 60vw;
+  margin: 8px 0;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#quote span:last-child {
+  font-style: italic;
+}

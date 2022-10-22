@@ -1,0 +1,31 @@
+#greeting {
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 16px;
+}
+
+#login-form {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+#login-form input {
+  all: unset;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+#login-form input::placeholder {
+  color: white;
+}
+
+#login-form button {
+  all: unset;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,18 @@
+#weather {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  top: 20px;
+  right: 40px;
+  font-size: 24px;
+  color: #eaeaea;
+}
+
+#weather span {
+  display: flex;
+}
+
+#weather span:first-child {
+  margin-bottom: 8px;
+}
